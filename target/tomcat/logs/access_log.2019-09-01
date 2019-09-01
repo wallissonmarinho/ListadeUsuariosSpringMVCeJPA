@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:18:14:38 -0300] "GET /intro-spring-mvc/ HTTP/1.1" 200 160 http-bio-9090-exec-1 2636
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:19:06:02 -0300] "GET /intro-spring-mvc/teste HTTP/1.1" 404 1031 http-bio-9090-exec-2 173
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:19:06:18 -0300] "GET /intro-spring-mvc/ HTTP/1.1" 200 171 http-bio-9090-exec-3 1586
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:19:07:28 -0300] "GET /intro-spring-mvc/ HTTP/1.1" 200 171 http-bio-9090-exec-2 1485
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:19:07:32 -0300] "GET /intro-spring-mvc/teste HTTP/1.1" 404 1031 http-bio-9090-exec-3 22
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:19:09:27 -0300] "GET /intro-spring-mvc/teste HTTP/1.1" 200 195 http-bio-9090-exec-1 393
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:19:10:52 -0300] "GET /intro-spring-mvc/teste HTTP/1.1" 200 195 http-bio-9090-exec-1 1402
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:19:13:38 -0300] "GET /intro-spring-mvc/teste HTTP/1.1" 200 210 http-bio-9090-exec-1 2120
