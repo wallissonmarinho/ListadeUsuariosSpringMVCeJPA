@@ -4,6 +4,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import org.springframework.stereotype.Repository;
+
+@Repository
 public class UsuarioDaoImpl implements UsuarioDao {
 	
 	private static List<Usuario> us;  
