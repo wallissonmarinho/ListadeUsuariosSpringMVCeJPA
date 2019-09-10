@@ -37,7 +37,9 @@ public class UsuarioDaoImpl implements UsuarioDao {
 
 	@Override
 	public void editar(Usuario usuario) {
-		us.stream() .filter((u) -> u.getId() .equals(usuario.getId())) .forEach((u) -> {
+		us.stream() 
+		.filter((u) -> u.getId() .equals(usuario.getId())) 
+		.forEach((u) -> {
 			u.setNome(usuario.getNome());
 			u.setSobrenome(usuario.getSobrenome());
 		});	
@@ -51,7 +53,10 @@ public class UsuarioDaoImpl implements UsuarioDao {
 
 	@Override
 	public Usuario getId(Long id) {
-		return us.stream() .filter((u) -> u.getId().equals(id)).collect(Collectors.toList()).get(0);
+		return us.stream() 
+				.filter((u) -> u.getId().equals(id))
+				.collect(Collectors.toList())
+				.get(0);
 	}
 
 	@Override
