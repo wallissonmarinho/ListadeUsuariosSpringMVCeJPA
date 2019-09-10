@@ -51,6 +51,7 @@
 	</div>
 	<hr>
 	<footer class="footer">
+	
 	</footer>
 
 </div>
