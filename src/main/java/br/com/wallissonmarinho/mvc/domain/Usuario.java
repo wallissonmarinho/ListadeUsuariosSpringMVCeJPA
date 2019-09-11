@@ -1,5 +1,10 @@
 package br.com.wallissonmarinho.mvc.domain;
 
+import java.time.LocalDate;
+
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.format.annotation.DateTimeFormat.ISO;
+
 public class Usuario {
 	
 	private Long id;
@@ -7,6 +12,9 @@ public class Usuario {
 	private String nome;
 	
 	private String sobrenome;
+	
+	@DateTimeFormat(iso = ISO.DATE)
+	private LocalDate dtNascimento;
 	
 	public Usuario() {
 		super();
@@ -17,6 +25,14 @@ public class Usuario {
 		this.id = id;
 		this.nome = nome;
 		this.sobrenome = sobrenome;
+	}
+
+	public Usuario(Long id, String nome, String sobrenome, LocalDate dtNascimento) {
+		super();
+		this.id = id;
+		this.nome = nome;
+		this.sobrenome = sobrenome;
+		this.dtNascimento = dtNascimento;
 	}
 
 	public Long getId() {
@@ -37,6 +53,14 @@ public class Usuario {
 
 	public String getSobrenome() {
 		return sobrenome;
+	}
+
+	public LocalDate getDtNascimento() {
+		return dtNascimento;
+	}
+
+	public void setDtNascimento(LocalDate dtNascimento) {
+		this.dtNascimento = dtNascimento;
 	}
 
 	public void setSobrenome(String sobrenome) {
