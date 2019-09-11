@@ -1,8 +1,10 @@
 C:\Users\walli\eclipse-workspace\intro-spring-mvc\src\main\java\br\com\wallissonmarinho\mvc\controller\UsuarioController.java
 C:\Users\walli\eclipse-workspace\intro-spring-mvc\src\main\java\br\com\wallissonmarinho\mvc\controller\WelcomeController.java
 C:\Users\walli\eclipse-workspace\intro-spring-mvc\src\main\java\br\com\wallissonmarinho\mvc\domain\Usuario.java
+C:\Users\walli\eclipse-workspace\intro-spring-mvc\src\main\java\br\com\wallissonmarinho\mvc\domain\TipoSexo.java
 C:\Users\walli\eclipse-workspace\intro-spring-mvc\src\main\java\br\com\wallissonmarinho\mvc\config\SpringInitConfig.java
 C:\Users\walli\eclipse-workspace\intro-spring-mvc\src\main\java\br\com\wallissonmarinho\mvc\config\RootConfig.java
 C:\Users\walli\eclipse-workspace\intro-spring-mvc\src\main\java\br\com\wallissonmarinho\mvc\config\SpringMvcConfig.java
+C:\Users\walli\eclipse-workspace\intro-spring-mvc\src\main\java\br\com\wallissonmarinho\mvc\conversor\TipoSexoConverter.java
 C:\Users\walli\eclipse-workspace\intro-spring-mvc\src\main\java\br\com\wallissonmarinho\mvc\dao\UsuarioDao.java
 C:\Users\walli\eclipse-workspace\intro-spring-mvc\src\main\java\br\com\wallissonmarinho\mvc\dao\UsuarioDaoImpl.java
