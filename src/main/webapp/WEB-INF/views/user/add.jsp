@@ -9,6 +9,8 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<title>Cadastro de Usuarios</title>
+	<spring:url var="css" value="/static/css/bootstrap.css"></spring:url>
+	<link type="text/css" rel="stylesheet" href="${css }"/>
 </head>
 <body>
 <div class="container">
